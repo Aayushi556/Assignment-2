@@ -38,23 +38,19 @@ This Python program calculates the sum of numbers from **1 to 50** using a `for`
 1. A variable `sum` is initialized to 0.
 2. A `for` loop runs from 1 to 50 (inclusive).
 3. On each iteration, the current number is added to `sum`.
-4. The running total is printed.
-
-⚠️ **Note**: Since the `print()` statement is inside the loop, it prints the sum after **each addition**, not just the final result.
+4. After the loop ends, the **final sum** is printed.
 
 ## 💻 Code
 ```python
 sum = 0
 for i in range(1, 51):
     sum += i
-    print("the sum of numbers from 1 to 50:", sum)
+
+print("the sum of numbers from 1 to 50:", sum)
 ```
+
 Output
 ```
-the sum of numbers from 1 to 50: 1
-the sum of numbers from 1 to 50: 3
-the sum of numbers from 1 to 50: 6
-...
 the sum of numbers from 1 to 50: 1275
 ```
 
